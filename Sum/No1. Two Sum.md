@@ -1,0 +1,56 @@
+# 两数之和 
+
+Input: an array of integers ```nums``` and an integer ```target```
+
+Output: the indices of the two numbers that they add up to ```target```
+
+```
+nums = [2, 7, 11, 15], target = 9
+
+Output:  [0, 1], Because nums[0] + nums[1] = 2 + 7 = 9 
+```
+
+## Solution 
+
+### 思路：
+首先定义一个```dict{}```, 使用```enumerate()```函数遍历整个nums，如果差值存在于```dict```中，则返回index值
+
+### Code： 
+
+```
+class Solution(object):
+    def twoSum(self, nums, target):
+        output = {}
+        for i, j in enumerate(nums):
+            if target-j in output:
+                return output[target-j], i
+            output[j] = i
+                    
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+```
+
+### Key Points: 
+
+1. Python 中几种括号的用法：
+
+() -- tuple: 代表tuple元组数据类型，是一种不可变序列。
+
+[] -- list:  代表list列表数据类型，列表是一种可变序列。
+
+{} -- dict:  代表dict字典数据类型，字典是Python中唯一内建的映射类型。字典中的值没有特殊的顺序，但都是存储在一个特定的键（key）下。键可以是数字、字符串甚至是元组。类型为dict
+
+2. ```enumerate()``` function 
+
+用于将一个可遍历的数据对象(如列表、元组或字符串)组合为一个索引序列，同时列出数据和数据下标，一般用在 for 循环当中。
+
+``` 
+seasons = ['Spring', 'Summer', 'Autumn', 'Winter']
+list(enumerate(seasons))
+
+>>> [(0, 'Spring'), (1, 'Summer'), (2, 'Autumn'), (3, 'Winter')]
+``` 
+
