@@ -5,9 +5,13 @@ Input: an array of integers ```nums``` and an integer ```target```
 Output: the indices of the two numbers that they add up to ```target```
 
 ```
-nums = [2, 7, 11, 15], target = 9
+Input: nums = [2, 7, 11, 15], target = 9
 
 Output:  [0, 1], Because nums[0] + nums[1] = 2 + 7 = 9 
+
+Input: nums = [3, 2, 4], target = 6
+
+Output: [1, 2], nums[1] + nums[2] = 2 + 4 = 6
 ```
 
 ## Solution 
