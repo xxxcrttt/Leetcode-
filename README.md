@@ -7,3 +7,4 @@ Need to update:
 2. [二进制手表](https://github.com/xxxcrttt/Leetcode-/blob/main/Bit/Q401.%20Binary%20Watch.md) -- backtracing 
 3. [比特位计数](https://github.com/xxxcrttt/Leetcode-/blob/main/Dynamic/Q338.%20Counting%20Bits.md) -- Dynamic Programming 
 4. [回文链表](https://github.com/xxxcrttt/Leetcode-/blob/main/Linked%20List/Q234.%20palindrom%20linked%20list.md) -- 双指针, 递归
+5. [验证回文字符串II](https://github.com/xxxcrttt/Leetcode-/blob/main/Greedy/Q680.%20valid-palindrome-ii.md) -- 贪心算法
