@@ -8,3 +8,4 @@ Need to update:
 3. [比特位计数](https://github.com/xxxcrttt/Leetcode-/blob/main/Dynamic/Q338.%20Counting%20Bits.md) -- Dynamic Programming 
 4. [回文链表](https://github.com/xxxcrttt/Leetcode-/blob/main/Linked%20List/Q234.%20palindrom%20linked%20list.md) -- 双指针, 递归
 5. [验证回文字符串II](https://github.com/xxxcrttt/Leetcode-/blob/main/Greedy/Q680.%20valid-palindrome-ii.md) -- 贪心算法
+6. [最长公共前缀](https://github.com/xxxcrttt/Leetcode-/blob/main/String/Q14.%20longest-common-prefix.md) -- 解法很多, 分治 & 二分查找
