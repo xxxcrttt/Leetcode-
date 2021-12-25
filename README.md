@@ -9,4 +9,5 @@ Need to update:
 4. [回文链表](https://github.com/xxxcrttt/Leetcode-/blob/main/Linked%20List/Q234.%20palindrom%20linked%20list.md) -- 双指针, 递归
 5. [验证回文字符串II](https://github.com/xxxcrttt/Leetcode-/blob/main/Greedy/Q680.%20valid-palindrome-ii.md) -- 贪心算法
 6. [最长公共前缀](https://github.com/xxxcrttt/Leetcode-/blob/main/String/Q14.%20longest-common-prefix.md) -- 解法很多, 分治 & 二分查找
-7. [合并两个有序链表](https://github.com/xxxcrttt/Leetcode-/edit/main/Linked%20List/Q21.%20merge-two-sorted-lists.md) -- 递归和迭代
+7. [合并两个有序链表](https://github.com/xxxcrttt/Leetcode-/edit/main/Linked%20List/Q21.%20merge-two-sorted-lists.md) -- 递归 & 迭代
+8. [合并两个有序数组](https://github.com/xxxcrttt/Leetcode-/blob/main/Array%20%26%20Linked%20List/Q88.merge-sorted-array.md) -- 双指针 & 逆向双指针
